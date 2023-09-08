@@ -55,14 +55,14 @@ namespace Facility.VisualStudioExtension
 
 		public async Task OnLoadedAsync()
 		{
-			await StartAsync.InvokeAsync(this, EventArgs.Empty);
+			await StartAsync.InvokeAsync(this, EventArgs.Empty).ConfigureAwait(false);
 		}
 
 		public Task OnServerInitializedAsync() => Task.CompletedTask;
 
-		public async Task<InitializationFailureContext> OnServerInitializeFailedAsync(ILanguageClientInitializationInfo initializationState)
+		public Task<InitializationFailureContext> OnServerInitializeFailedAsync(ILanguageClientInitializationInfo initializationState)
 		{
-			return new InitializationFailureContext { FailureMessage = initializationState.StatusMessage };
+			return Task.FromResult(new InitializationFailureContext { FailureMessage = initializationState.StatusMessage });
 		}
 
 		public void Dispose()
