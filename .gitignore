@@ -1,0 +1,17 @@
+bin/
+obj/
+release/
+.vs/
+.idea/
+Thumbs.db
+*.cache
+*.user
+*.userprefs
+*.ncrunchproject
+*.ncrunchsolution
+nCrunchTemp*
+_ReSharper*
+.DS_Store
+launchSettings.json
+
+src/Facility.VisualStudioExtension/Server/**
