@@ -584,7 +584,7 @@
     <key>type</key>
     <dict>
       <key>match</key>
-      <string>\b(boolean|bytes|decimal|double|error|int32|int64|map|object|result|string)\b</string>
+      <string>\b(boolean|bytes|decimal|float|double|error|int32|int64|map|object|result|string)\b</string>
       <key>name</key>
       <string>storage.type.builtin.fsd</string>
     </dict>
