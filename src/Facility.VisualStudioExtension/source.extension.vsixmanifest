@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="FacilityVisualStudio.cd1c460f-e21a-48d7-b18f-6686c50b1e80" Version="1.1" Language="en-US" Publisher="Facility API" />
+        <Identity Id="FacilityVisualStudio.cd1c460f-e21a-48d7-b18f-6686c50b1e80" Version="1.2" Language="en-US" Publisher="Facility API" />
         <DisplayName>Facility API</DisplayName>
         <Description xml:space="preserve">Facility API support for Visual Studio.</Description>
     </Metadata>

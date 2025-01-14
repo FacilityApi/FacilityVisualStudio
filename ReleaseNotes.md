@@ -1,9 +1,13 @@
 # Release Notes
 
-## 1.1.0
+## 1.2
+
+* Support `float` keyword.
+
+## 1.1
 
 * Support events.
 
-## 1.0.0
+## 1.0
 
 * Initial release.
